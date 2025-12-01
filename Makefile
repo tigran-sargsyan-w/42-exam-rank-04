@@ -123,19 +123,19 @@ run_ft_popen: ft_popen
 	@$(FT_POPEN_BIN)
 
 run_picoshell: picoshell
-	@echo "🚀 Running picoshell"
+	@echo "🚀 Running picoshell\n"
 	@$(PICOSHELL_BIN)
 
 run_sandbox: sandbox
-	@echo "🚀 Running sandbox"
+	@echo "🚀 Running sandbox\n"
 	@$(SANDBOX_BIN)
 
 run_argo: argo
-	@echo "🚀 Running argo"
+	@echo "🚀 Running argo\n"
 	@$(ARGO_BIN)
 
 run_vbc: vbc
-	@echo "🚀 Running vbc"
+	@echo "🚀 Running vbc\n"
 	@$(VBC_BIN)
 
 run_all: all
