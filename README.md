@@ -90,6 +90,40 @@ A minimal expression evaluator:
 
 ---
 
+## 🛠️ Build & Run
+
+All projects are built and run via the **root Makefile**.
+
+From the repository root:
+
+```bash
+# Build all binaries (ft_popen, picoshell, sandbox, argo, vbc)
+make
+
+# Build a single project
+make ft_popen
+make picoshell
+make sandbox
+make argo
+make vbc
+
+# Build and run a single project
+make run_ft_popen
+make run_picoshell
+make run_sandbox
+make run_argo
+make run_vbc
+
+# Clean object files and binaries
+make clean   # remove all .o files
+make fclean  # remove .o files and all binaries
+make re      # full rebuild (fclean + all)
+```
+
+> All commands above must be run **from the root directory** of the repository.
+
+---
+
 ## 📖 How I Use This Repo
 
 * Re-implement functions **from scratch** without copy-paste.
