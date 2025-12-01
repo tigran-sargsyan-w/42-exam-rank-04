@@ -1,2 +1,11 @@
+# Compiled object files
 /obj
 *.o
+
+# Exam Rank 04 binaries
+level-1/ft_popen/ft_popen
+level-1/picoshell/picoshell
+level-1/sandbox/sandbox
+
+level-2/argo/argo
+level-2/vbc/vbc
