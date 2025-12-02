@@ -101,6 +101,7 @@ int picoshell(char **cmds[])
     return ret;
 }
 
+#pragma region Test code
 
 #include <stdio.h>
 int main(void)
@@ -115,3 +116,4 @@ int main(void)
 
     return 0;
 }
+#pragma endregion

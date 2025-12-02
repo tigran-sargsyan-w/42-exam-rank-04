@@ -65,6 +65,8 @@ int ft_popen(const char *file, char *const argv[], char type)
     }
 }
 
+#pragma region Test code
+
 // Variant from subject without get_next_line and ft_putstr
 int main(void)
 {
@@ -79,3 +81,4 @@ int main(void)
     close(fd);
     return (0);
 }
+#pragma endregion
