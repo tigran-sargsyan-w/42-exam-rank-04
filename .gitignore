@@ -1,3 +1,6 @@
+# Ignore Visual Studio Code settings folder
+.vscode
+
 # Compiled object files
 /obj
 *.o
