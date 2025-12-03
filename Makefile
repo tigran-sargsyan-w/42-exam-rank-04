@@ -5,7 +5,7 @@
 # 🧱 Compiler & Flags
 CC      := cc
 # CFLAGS  := -Wall -Wextra -Werror -g3
-CFLAGS  := -Wall -g3
+CFLAGS  := -g3
 
 # 📁 Project Directories
 FT_POPEN_DIR   := level-1/ft_popen
