@@ -81,6 +81,9 @@ A lightweight JSON parser into a custom structure:
 
 ### level-2 / `vbc`
 
+- For visualizing differences between given and fixed code:
+  - [Diffchecker](https://www.diffchecker.com/text-compare/)
+
 A minimal expression evaluator:
 
 * Parses and evaluates arithmetic expressions like:
