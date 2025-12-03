@@ -170,8 +170,8 @@ run_argo: argo
 	@$(ARGO_BIN)
 
 run_vbc: vbc
-	@echo "🚀 Running vbc\n"
-	@$(VBC_BIN)
+	@echo "🚀 Running vbc '2+3' | cat -e\n"
+	@$(VBC_BIN) '2+3' | cat -e
 
 run_all: all
 	@echo "🚀 Running all binaries (in order)"
