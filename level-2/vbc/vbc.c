@@ -88,6 +88,10 @@ static node *parse_factor(char **s)
 }
 
 // ADDED: parsing of a term (multiplications)
+// This function is a COPY-PASTE of parse_expr_r,
+// you just have to REPLACE '+' by '*'
+// and REPLACE .type = ADD by .type = MULTI
+// and REPLACE parse_term by parse_factor
 static node *parse_term(char **s)
 {
     node *left = parse_factor(s);
@@ -108,9 +112,6 @@ static node *parse_term(char **s)
 }
 
 // ADDED: parsing of an expression (additions)
-// This function is a COPY-PASTE of parse_term,
-// you just have to REPLACE '*' by '+'
-// and REPLACE .type = MULTI by .type = ADD
 static node *parse_expr_r(char **s)
 {
     node *left = parse_term(s);
