@@ -77,6 +77,12 @@ A lightweight JSON parser into a custom structure:
 * Builds a simple in-memory representation (AST / tree).
 * Focuses on parsing, validation, and error handling.
 
+> ⚠️ IMPORTANT: `argo` implementation is NOT included in this repository.
+>
+> 🚫 Reason: reports indicate this exercise is no longer present in recent exams
+> and the author hasn't encountered students who received it. The `subject.txt`
+> is kept for reference.
+
 ---
 
 ### level-2 / `vbc`
