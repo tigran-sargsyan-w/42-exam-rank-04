@@ -39,12 +39,12 @@ void    unexpected(char c)
     if (c)
         printf("Unexpected token '%c'\n", c);
     else
-        printf("Unexpected end of input\n");  // MODIFIED: correct message according to the subject
+        printf("Unexpected end of input\n");
 }
 
 int accept(char **s, char c)
 {
-    if (**s == c) // MODIFIED: correct condition
+    if (**s == c)
     {
         (*s)++;
         return (1);
