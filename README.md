@@ -126,6 +126,8 @@ make picoshell
 make sandbox
 make argo
 make vbc
+make ft_popen_short
+make picoshell_short
 
 # Build and run a single project
 make run_ft_popen
@@ -133,6 +135,8 @@ make run_picoshell
 make run_sandbox
 make run_argo
 make run_vbc
+make run_ft_popen_short
+make run_picoshell_short
 
 # Clean object files and binaries
 make clean   # remove all .o files
